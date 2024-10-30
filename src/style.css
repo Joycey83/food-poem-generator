@@ -14,3 +14,36 @@ h1 {
   line-height: 1.5;
   color: #d4eef0;
 }
+
+header {
+  margin-bottom: 35px;
+}
+
+form {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #e9f7f8;
+  border-radius: 12px;
+  display: flex;
+}
+
+.instructions {
+  padding: 15px;
+  border: 2px solid rgba(23, 102, 109, 0.333);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 1.2;
+  color: #1e8892;
+}
+
+.submit-btn {
+  margin-left: 12px;
+  background-color: #0e568a;
+  color: aliceblue;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  width: 140px;
+}
