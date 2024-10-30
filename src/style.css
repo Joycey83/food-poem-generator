@@ -46,4 +46,5 @@ form {
   border-radius: 50px;
   padding: 14px 24px;
   width: 140px;
+  cursor: pointer;
 }
