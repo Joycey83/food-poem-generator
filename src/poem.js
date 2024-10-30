@@ -1,7 +1,15 @@
 function generatePoem(event) {
   event.preventDefault();
 
-  let poemContainer = document.querySelector("#poem-verse");
+  new Typewriter("#poem-verse", {
+    strings: `I like sizzling sausages.
+          <br />
+          I like bubbling beans.`,
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
+
   poemContainer.innerHTML = `I like sizzling sausages.
           <br />
           I like bubbling beans.`;
