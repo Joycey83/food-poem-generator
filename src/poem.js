@@ -9,10 +9,6 @@ function generatePoem(event) {
     delay: 1,
     cursor: "",
   });
-
-  poemContainer.innerHTML = `I like sizzling sausages.
-          <br />
-          I like bubbling beans.`;
 }
 
 let poemFormElement = document.querySelector("#food-poem-generator");
