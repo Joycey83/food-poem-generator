@@ -48,3 +48,14 @@ form {
   width: 140px;
   cursor: pointer;
 }
+
+.poem {
+  font-size: 14px;
+  background-color: #e9f7f8;
+  padding: 20px;
+  line-height: 2;
+  margin: 40px auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 3px dashed #0e568a;
+}
