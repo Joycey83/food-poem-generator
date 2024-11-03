@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-  color: #bee6e9;
+  color: #d4eef0;
 }
 .instructions {
   padding: 15px;
@@ -55,6 +55,10 @@ a:hover {
   padding: 14px 24px;
   width: 140px;
   cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgba(19, 109, 173, 0.82);
 }
 
 .poem {
