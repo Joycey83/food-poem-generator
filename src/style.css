@@ -72,6 +72,10 @@ a:hover {
   border: 3px dashed #0e568a;
 }
 
+.poem strong {
+  color: #0e568a;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
