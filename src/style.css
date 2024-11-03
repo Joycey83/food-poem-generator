@@ -87,6 +87,10 @@ a:hover {
   color: #0e568a;
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
