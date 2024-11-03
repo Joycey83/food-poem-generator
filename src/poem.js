@@ -1,5 +1,5 @@
 function displayPoem(response) {
-  new Typewriter("#generatePoem", {
+  new Typewriter("#poem-verse", {
     strings: response.data.answer,
     autoStart: true,
     delay: 1,
