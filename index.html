@@ -21,18 +21,21 @@
       </header>
 
       <main>
-        <form id="food-poem-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the food poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-btn" />
-        </form>
+        <div class="form-wrapper">
+          <form id="food-poem-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of a funny food poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-btn" />
+          </form>
+          <div class="hint">i.e: red wine,panna cotta, cheese or steak</div>
+        </div>
         <div class="poem" id="poem-verse"></div>
       </main>
 
